@@ -1,11 +1,13 @@
 import './App.css';
 import RateButtons from "./rateButtons";
+import CardFront from "./cardFront";
 
 function App() {
     return (
-        <>
-            <RateButtons/>
-        </>
+        <div className={"p-8"}>
+            <CardFront />
+            <RateButtons />
+        </div>
     );
 }
 
