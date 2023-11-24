@@ -6,9 +6,13 @@ import CardBack from "./cardBack";
 function App() {
     return (
         <div className={"p-8"}>
-            <CardFront />
+            <div className={"aspect-[1.586] w-96"}>
             <CardBack />
+            <CardFront />
+            </div>
+            <div className={"mt-5"}>
             <RateButtons />
+            </div>
         </div>
     );
 }
